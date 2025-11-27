@@ -1,0 +1,22 @@
+.font-sans {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom small tweaks kept separate from Tailwind */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Utility to ensure monospaced display for IDs and ciphertext previews */
+.font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Segoe UI Mono", "Helvetica Neue", monospace;
+}
+
+/* Minor card visuals to complement Tailwind classes when Tailwind is not available */
+.container-fallback {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
